@@ -7,8 +7,15 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "pdfgenerator",
+    "puppeteer",
+    "handlebars",
+    "pdf",
+    "node",
+    "javascript"
+  ],
+  "author": "Edgar Gago Carrillo",
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.7.7",
