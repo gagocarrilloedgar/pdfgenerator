@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: "Fira Code";
+}
+
+.container {
+  border: 10px solid #000000;
+  height: 95vh;
+  margin: 2rem;
+  align-items: center;
+}
+
+.inner-container {
+  border: 5px solid #000000;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2rem;
+  padding-top: 10rem;
+}
+
+.container-title {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.winner {
+  font-family: "Italianno";
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 15rem;
+}
+
+.certificate-to {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.certificate-date {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  max-width: 80%;
+  margin: auto;
+}
+.certificate-id {
+  position: absolute;
+  top: 6rem;
+  right: 6rem;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.signature {
+  position: absolute;
+  bottom: 6rem;
+  left: 6rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.stamp {
+  position: absolute;
+  bottom: 6rem;
+  right: 6rem;
+  width: 25rem;
+  font-size: 1.5rem;
+  z-index: 0;
+}
